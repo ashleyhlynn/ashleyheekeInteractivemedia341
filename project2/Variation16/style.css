@@ -1,0 +1,33 @@
+#body {
+	font-family: geneva;
+	font-size:40px;
+}
+ 
+
+#always {
+	letter-spacing:20px;
+}
+
+#fed {
+	letter-spacing:9px;
+}
+
+#everything {
+	letter-spacing:5px;
+}
+
+#look {
+	letter-spacing:3px;
+}
+
+
+#do {
+	letter-spacing:14px;
+}
+
+#much {
+	text-transform:uppercase;
+	font-size:150px;
+	letter-spacing:-12px;
+}
+
