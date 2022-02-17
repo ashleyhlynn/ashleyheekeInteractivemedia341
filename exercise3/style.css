@@ -1,0 +1,137 @@
+body {
+    background-color: lightgreen;
+}
+.top {
+    padding-left: 50px;
+    position: sticky;
+}
+.box1 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+.box2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(153, 154, 160);
+    position: absolute;
+}
+.one {
+    margin: 28px 6px 0 100px;
+    background-color: whitesmoke
+}
+.two {
+    margin: 28px 6px 0 156px;
+    background-color: whitesmoke
+}
+.three {
+    margin: 28px 6px 0 212px;
+    background-color: whitesmoke
+}
+.four {
+    margin: 28px 6px 0 268px;
+    background-color: whitesmoke
+}
+.five {
+    margin: 28px 6px 0 324px;
+    background-color: whitesmoke
+}
+.six {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 380px;
+    background-color: whitesmoke
+}
+.top .icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+}
+.top .search {
+    display: inline-block;
+    position:sticky;
+    width: 40px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+    opacity: 50%;
+}
+.main1 {
+    padding-left: 90px;
+    position: relative;
+}
+.main1 .avatar1 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(55, 158, 255);
+}
+.main1 .create {
+    display: inline-block;
+    width: 500px;
+    height: 100px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+}
+.main2 {
+    padding-left: 90px;
+    position: relative;
+}
+.main2 .avatar2 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(55, 158, 255);
+}
+.main2 .post {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+}
+.main2 .post .image {
+    display: inline-block;
+    width: 488px;
+    height: 450px;
+    margin: 6px;
+    background-color: rgb(192, 190, 190);
+}
+.main3 {
+    padding-left: 90px;
+    position: relative;
+}
+.main3 .avatar3 {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(55, 158, 255);
+}
+.main3 .post2 {
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin: 28px 6px 0 6px;
+    background-color: rgb(255, 255, 255);
+}
+.main3 .post2 .image {
+    display: inline-block;
+    width: 488px;
+    height: 450px;
+    margin: 6px;
+    background-color: rgb(192, 190, 190);
+}
+div {
+    display: block;
+}
