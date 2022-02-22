@@ -1,8 +1,26 @@
-.heart {
-    display:inline-block;
-    width: 250px; 
-    height: 200px;
-    aspect-ratio: 1;
-    border-image: radial-gradient(red 69%,#0000 70%) 84.5% fill/100%;
-    clip-path: polygon(-41% 0,50% 91%, 141% 0);
-  }
+.index {
+	font-family:sans-serif;
+	font-size:14px;
+	color:#faf175;
+	letter-spacing: 4px;
+	text-align:center;
+	position:fixed;
+	margin-left: 80%;
+}
+a:visited {
+	color: #faf175;
+}
+
+a:link {
+	color: #faf175;
+}
+
+a:hover {
+	color:#83d8fa;
+}
+.text {
+	font-size:500px;
+	font-family:monospace;
+	line-height: 700px;
+	text-align: center;
+}
