@@ -6,6 +6,8 @@
     margin: 100px auto;
     padding: 100px;
     position: relative;
+    padding: 100px auto;
+    
 }
 .you {
     position: relative;
@@ -15,6 +17,10 @@
     font-size: 50px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: thistle;
+}
+.you:hover {
+    color: whitesmoke;
 }
 .line2 {
     background-color: plum;
@@ -32,21 +38,93 @@
     font-size: 50px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: plum;
+}
+.yet:hover {
+    color: whitesmoke;
 }
 .line3 {
     background-color: mediumorchid;
-    width: 8in;
+    width: 5in;
     height: 0in;
-    margin-left: 330px;
+    margin-left: 610px;
     padding: 100px;
     position: relative;
+    
 }
 .trick {
     position: relative;
     margin: 100px;
     margin-top: -135px;
-    margin-left: 320px;
+    margin-left: 650px;
     font-size: 50px;
     font-style: italic;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: mediumorchid;
+}
+.trick:hover {
+    color: whitesmoke;
+}
+.line4 {
+    background-color: rgb(62, 145, 212);
+    width: 8in;
+    height: 0in;
+    margin-left: 110px;
+    padding: 100px;
+    position: relative;
+}
+.stop {
+    position: relative;
+    margin: 100px;
+    margin-top: -135px;
+    margin-left: 135px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(62, 145, 212);
+}
+.stop:hover {
+    color: whitesmoke;
+}
+.line5 {
+    background-color: lightskyblue;
+    width: 4in;
+    height: 0in;
+    margin-left: 400px;
+    padding: 100px;
+    position: relative;
+}
+.dont {
+    position: relative;
+    margin: 100px;
+    margin-top: -135px;
+    margin-left: 430px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: lightskyblue;
+}
+.dont:hover {
+    color: whitesmoke;
+}
+.line6 {
+    background-color: rgb(199, 234, 255);
+    width: 5.5in;
+    height: 0in;
+    margin-left: 700px;
+    padding: 100px;
+    position: relative;
+}
+.everything {
+    position: relative;
+    margin: 100px;
+    margin-top: -135px;
+    margin-left: 740px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(199, 234, 255);
+}
+.everything:hover {
+    color: whitesmoke;
 }

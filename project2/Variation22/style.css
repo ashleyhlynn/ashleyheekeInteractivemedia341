@@ -1,0 +1,27 @@
+.container {
+    position: relative;
+    margin: 100px auto;
+}
+.circle {
+    width: 800px;
+    height: 800px;
+    margin: 100px auto; 
+    border-radius: 50%;
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    z-index: 0;
+}
+.poem {
+    font-size: 30px;
+    position: relative;
+    margin-top: -580px;
+    font-family: sans-serif;
+    color: lightpink;
+}
+.poem:hover {
+    color: violet;
+    font-size: 50px;
+    animation-timing-function: ease-in-out;
+    transition-delay: 5;
+    transition-duration: 2s;
+}
