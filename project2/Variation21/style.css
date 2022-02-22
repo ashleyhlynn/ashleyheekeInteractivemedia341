@@ -1,0 +1,52 @@
+.line {
+    background-color: thistle;
+    width: 3in;
+    height: 0in;
+    margin-left: 0px;
+    margin: 100px auto;
+    padding: 100px;
+    position: relative;
+}
+.you {
+    position: relative;
+    margin: 100px;
+    margin-top: -230px;
+    margin-left: 599px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line2 {
+    background-color: plum;
+    width: 8in;
+    height: 0in;
+    margin-left: 230px;
+    padding: 100px;
+    position: relative;
+}
+.yet {
+    position: relative;
+    margin: 100px;
+    margin-top: -135px;
+    margin-left: 320px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line3 {
+    background-color: mediumorchid;
+    width: 8in;
+    height: 0in;
+    margin-left: 330px;
+    padding: 100px;
+    position: relative;
+}
+.trick {
+    position: relative;
+    margin: 100px;
+    margin-top: -135px;
+    margin-left: 320px;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,10 @@
+.heading {
+    color: tomato;
+}
+.heading:hover {
+    color: blueviolet;
+    font-size: 100px;
+    transition-timing-function: ease-out;
+    transition-duration: 3s;
+    transition-delay: 10;
+}
