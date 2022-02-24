@@ -35,7 +35,7 @@ body {
   width: 600px;
   height: 500px;
   border-radius: 50%;
-  background-color: rgb(38, 189, 38);
+  background-color: red;
   margin: -710px auto;
   margin-left: 100px;
   z-index: 2;
@@ -44,10 +44,50 @@ body {
   width: 550px;
   height: 450px;
   border-radius: 50%;
-  background-color: tomato;
+  background-color: orange;
   margin: 250px auto;
   margin-left: 125px;
   z-index: 3;
+}
+.circle3 {
+  width: 500px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: -670px auto;
+  margin-left: 150px;
+  z-index: 3;
+  position: absolute;
+}
+.circle4 {
+  width: 450px;
+  height: 400px;
+  border-radius: 50%;
+  background-color: green;
+  margin: -640px auto;
+  margin-left: 175px;
+  z-index: 3;
+  position: absolute;
+}
+.circle5 {
+  width: 400px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: blue;
+  margin: -610px auto;
+  margin-left: 200px;
+  z-index: 3;
+  position: absolute;
+}
+.circle6 {
+  width: 350px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: purple;
+  margin: -585px auto;
+  margin-left: 225px;
+  z-index: 3;
+  position: absolute;
 }
 
 .container2 {
@@ -57,4 +97,77 @@ body {
     margin-top: 80px;
     padding: 100px;
 }
+.base {
+  width: 280px;
+  height: 400px;
+  border-radius: 40%;
+  background-color: darkgreen;
+  margin-left: 300px;
+  margin-top: -670px;
+  position: relative;
+}
+.outline {
+  width: 240px;
+  height: 390px;
+  border-radius: 40%;
+  background-color: green;
+  margin-left: 320px;
+  margin-top: -395px;
+  position: relative;
+}
+.body {
+  width: 220px;
+  height: 380px;
+  border-radius: 40%;
+  background-color: lightgreen;
+  margin-left: 330px;
+  margin-top: -385px;
+  position: relative;
+}
+.pit {
+  width: 140px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: rgb(99, 74, 60);
+  margin-left: 365px;
+  margin-top: -200px;
+  position: relative;
+}
+.eye1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 380px;
+  margin-top: -250px;
+  position: relative;
+}
+.eye2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 460px;
+  margin-top: -30px;
+  position: relative;
+}
+.smile1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 415px;
+  margin-top: -0px;
+  position: relative;
+}
+.smile2 {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: lightgreen;
+  margin-left: 417px;
+  margin-top: -45px;
+  position: relative;
+}
+
 
