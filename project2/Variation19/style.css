@@ -1,3 +1,18 @@
+.navbar {
+    overflow: hidden;
+    background-color: #faf175;
+    font-family: Arial;
+  }
+  
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: papayawhip;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
 .text {
     transform: rotate(90deg);
     float: left;
