@@ -13,7 +13,3 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar:hover {
-  transition-duration: 3s;
-  color: black;
-}
