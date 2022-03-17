@@ -1,0 +1,660 @@
+html {
+    background-color: black;
+}
+ 
+ .heading1 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 550px;
+    color: red;
+    
+
+}
+.heading2 {
+    font-size: 15px;
+    font-family: monospace;
+    padding: 10px;
+    margin-left: 680px;
+    color: red;
+    
+}
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 8pt;
+    column-gap: 8pt;
+    padding: 100px auto;
+    padding-right: 100px;
+}
+
+img {
+    width: 268px;
+    height: 268px;
+    opacity: 5;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    z-index: 4;
+}
+img:hover {
+    transition: .5 ease;
+    transition-duration: 3s;
+    opacity: 0;
+}
+
+.boxone {
+    width: 268px;
+    height: 268px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+.button1 {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    background-color: tomato;
+    margin-top: -600px;
+    z-index: 1;
+}
+.tame {
+    font-family: monospace;
+    background-color: tomato;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1390px;
+    margin-top: -750px;
+}
+.tame:hover{
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+    
+}
+.boxtwo {
+    width: 268px;
+    height: 268px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+.button2 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: tomato;
+    margin-top: -38px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.boogie {
+    font-family:monospace;
+    background-color: tomato;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1110px;
+    margin-top: -750px;
+}
+.boogie:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxthree {
+    width: 268px;
+    height: 268px;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+}
+.button3 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: tomato;
+    margin-top: -35px;
+    margin-left: 279px;
+    z-index: 1;
+}
+.thug { 
+    font-family:monospace;
+    background-color: tomato;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -830px;
+    margin-top: -750px;
+}
+.thug:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxfour {
+    width: 268px;
+    height: 268px;
+    background-color: orange;
+    z-index: 1;
+    position: relative;
+}
+.button4 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: orangered;
+    margin-top: -35px;
+    margin-left: 279px;
+    z-index: 1;
+}
+.tyler {
+    font-family:monospace;
+    background-color: orange;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -780px;
+}
+.tyler:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxfive {
+    width: 268px;
+    height: 268px;
+    background-color: orange;
+    z-index: 1;
+    position: relative;
+}
+.button5 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: orangered;
+    margin-top: -35px;
+    margin-left: 279px;
+    z-index: 1;
+}
+.frank {
+    font-family:monospace;
+    background-color: orange;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -275px;
+    margin-top: -780px;
+}
+.frank:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxsix {
+    width: 268px;
+    height: 268px;
+    background-color: orange;
+    z-index: 1;
+    position: relative;
+}
+.button6 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: orangered;
+    margin-top: -35px;
+    margin-left: 279px;
+    z-index: 1;
+}
+.internet {
+    font-family:monospace;
+    background-color: orange;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -780px;
+}
+.internet:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxseven {
+    width: 268px;
+    height: 268px;
+    background-color: yellow;
+    z-index: 1;
+    position: relative;
+}
+.button7 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: goldenrod;
+    margin-top: 245px;
+    margin-left: -1394px;
+    z-index: 1;
+}
+.amine { 
+    font-family:monospace;
+    background-color: lightgoldenrodyellow;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1390px;
+    margin-top: -500px;
+}
+.amine:hover {
+    opacity: 100%;
+    color: darkred;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxeight {
+    width: 268px;
+    height: 268px;
+    background-color: yellow;
+    z-index: 1;
+    position: relative;
+}
+.button8 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: goldenrod;
+    margin-top: -36px;
+    margin-left: 280px;
+    z-index: 1;
+}
+.childish {
+    font-family:monospace;
+    background-color: lightgoldenrodyellow;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1110px;
+    margin-top: -500px;
+}
+.childish:hover {
+    opacity: 100%;
+    color: darkred;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxnine {
+    width: 268px;
+    height: 268px;
+    background-color: yellow;
+    z-index: 1;
+    position: relative;
+}
+.button9 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: goldenrod;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.jhene {
+    font-family:monospace;
+    background-color: lightgoldenrodyellow;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -830px;
+    margin-top: -500px;
+}
+.jhene:hover {
+    opacity: 100%;
+    color: darkred;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxten {
+    width: 268px;
+    height: 268px;
+    background-color: green;
+    z-index: 1;
+    position: relative;
+}
+.button10 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightgreen;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.kendrick {
+    font-family:monospace;
+    background-color: darkolivegreen;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -500px;
+}
+.kendrick:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxeleven {
+    width: 268px;
+    height: 268px;
+    background-color: green;
+    z-index: 1;
+    position: relative;
+}
+.button11 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightgreen;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.yeat {
+    font-family:monospace;
+    background-color: darkolivegreen;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -275px;
+    margin-top: -500px;
+}
+.yeat:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxtwelve {
+    width: 268px;
+    height: 268px;
+    background-color: green;
+    z-index: 1;
+    position: relative;
+}
+.button12 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightgreen;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.jcole {
+    font-family:monospace;
+    background-color: darkolivegreen;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -500px;
+}
+.jcole:hover {
+    opacity: 100%;
+    color: whitesmoke;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxthirteen {
+    width: 268px;
+    height: 268px;
+    background-color: blue;
+    z-index: 1;
+    position: relative;
+}
+.button13 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightblue;
+    margin-top: 239px;
+    margin-left: -1391px;
+    z-index: 1;
+}
+.drake {
+    font-family:monospace;
+    background-color: skyblue;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1390px;
+    margin-top: -260px;
+}
+.drake:hover {
+    opacity: 100%;
+    color: darkblue;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxfourteen {
+    width: 268px;
+    height: 268px;
+    background-color: blue;
+    z-index: 1;
+    position: relative;
+}
+.button14 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightblue;
+    margin-top: -36px;
+    margin-left: 280px;
+    z-index: 1;
+}
+.bryson { 
+    font-family:monospace;
+    background-color: skyblue;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -1110px;
+    margin-top: -200px;
+}
+.bryson:hover {
+    opacity: 100%;
+    color: darkblue;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxfifteen {
+    width: 268px;
+    height: 268px;
+    background-color: blue;
+    z-index: 1;
+    position: relative;
+}
+.button15 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: lightblue;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.daniel { 
+    font-family:monospace;
+    background-color: skyblue;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -830px;
+    margin-top: -230px;
+}
+.daniel:hover {
+    opacity: 100%;
+    color: darkblue;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxsixteen {
+    width: 268px;
+    height: 268px;
+    background-color: purple;
+    z-index: 1;
+    position: relative;
+}
+.button16 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: magenta;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.sativa {
+    font-family:monospace;
+    background-color: lavender;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -550px;
+    margin-top: -230px;
+}
+.sativa:hover {
+    opacity: 100%;
+    color: plum;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxseventeen {
+    width: 268px;
+    height: 268px;
+    background-color: purple;
+    z-index: 1;
+    position: relative;
+}
+.button17 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: magenta;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.pierre { 
+    font-family:monospace;
+    background-color: lavender;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: -275px;
+    margin-top: -230px;
+}
+.pierre:hover {
+    opacity: 100%;
+    color: plum;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+.boxeighteen {
+    width: 268px;
+    height: 268px;
+    background-color: purple;
+    z-index: 1;
+    position: relative;
+}
+.button18 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: magenta;
+    margin-top: -34px;
+    margin-left: 278px;
+    z-index: 1;
+}
+.smino {
+    font-family:monospace;
+    background-color: lavender;
+    font-size: small;
+    opacity: 0%;
+    transition: ease-out;
+    transition-duration: 1s;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: -230px;
+}
+.smino:hover {
+    opacity: 100%;
+    color: plum;
+    font-size: large;
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+
+
+
+

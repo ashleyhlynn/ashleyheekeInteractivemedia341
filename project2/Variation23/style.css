@@ -25,3 +25,17 @@
 a:visited {
 	color: #faf175;
 }
+
+a:link {
+	color: #faf175;
+}
+
+a:hover {
+	color:#83d8fa;
+}
+.text {
+	font-size:500px;
+	font-family:monospace;
+	line-height: 700px;
+	text-align: center;
+}
